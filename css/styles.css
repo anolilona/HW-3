@@ -12,11 +12,9 @@ body {
     height: 1000px;
     width: 1060px;
     margin: 0px 150px;
+    padding: 30px;
     background-color: white;
     box-shadow: -2px 0 3px #dbdbdb, 2px 0 3px #dbdbdb;
-}
-.wrap2 {
-    margin: 30px;
 }
 .header {
     background: linear-gradient(#5e5e5e, #444343);
@@ -49,7 +47,7 @@ nav {
     width: 25%;   
 }
 #ul_nav {
-    border: 2px solid #c8c8c8;
+    border: 0.5px solid #c8c8c8;
 }
 #ul_nav a {
     display: block;
@@ -64,7 +62,7 @@ nav {
 }
 #ul_nav li {
     display: block;
-    border-bottom: 2px solid #c8c8c8;
+    border-bottom: 0.5px solid #c8c8c8;
 }
 #ul_nav li:last-child {
     border-bottom: none;
